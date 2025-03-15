@@ -9,14 +9,45 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <!--Fontawesome-->
     <script src="https://kit.fontawesome.com/37f7b73249.js" crossorigin="anonymous"></script>
-    <!--Tailwind css-->
-    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
     
 </head>
 
 <body>
-    <header>
+    <header class="container mx-auto">
+      <nav>
+        <div class="navbar bg-base-100 ">
+          <div class="navbar-start">
+            <a class="btn btn-ghost text-xl"><i class="fa-solid fa-square-arrow-up-right"></i>Rinterio</a>
+          </div>
+          <div class="navbar-center ">
+            <ul class="menu menu-horizontal px-1">
+              <li><a>Home</a></li>
+              <li><a>Services</a></li>
+              <li><a>Portfolio</a></li>
+              <li><a>Blogs</a></li>
+              <li><a>Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end ">
+            <a class="btn mr-4"> <i class="fa-solid fa-magnifying-glass"></i></a>
+            <a class="btn mr-4"><i class="fa-solid fa-cart-shopping"></i></a>
+            <a class="btn bg-[#ABEF5F]">Book Consult<i class="fa-solid fa-square-arrow-up-right"></i></a>
+          </div>
+        </div>
+      </nav>
 
+      <div class="flex flex-col items-center">
+        <div>
+          <img  src="assets/banner.png" alt="">
+        </div>
+        <div class="">
+          <h3 class="text-7xl font-extrabold text-center mt-10">A barn house of this design has a striking appearance</h3>
+          <p class="text-center mt-10">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+        </div>
+        <a class="btn bg-[#ABEF5F] mt-10">View Details<i class="fa-solid fa-square-arrow-up-right"></i></a>
+      </div>
+
+        
     </header>
     <main>
 
